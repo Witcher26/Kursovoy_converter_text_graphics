@@ -2,7 +2,7 @@ package ru.netology.graphics.server;
 
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpServer;
-import ru.netology.graphics.image.TextGraphicsConverter;
+import ru.netology.graphics.image.interfaces.TextGraphicsConverter;
 
 import java.io.*;
 import java.net.InetSocketAddress;

@@ -1,5 +1,7 @@
 package ru.netology.graphics.image;
 
+import ru.netology.graphics.image.interfaces.TextColorSchema;
+
 public class TextColorSchemaImp implements TextColorSchema {
     char[] symbols = {'#', '$', '@', '%', '*', '+', '-'};
 

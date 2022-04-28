@@ -1,7 +1,8 @@
-package ru.netology.graphics.image;
+package ru.netology.graphics.image.interfaces;
+
+import ru.netology.graphics.image.exeptionClass.BadImageSizeException;
 
 import java.io.IOException;
-import java.net.MalformedURLException;
 
 public interface TextGraphicsConverter {
     /**

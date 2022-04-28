@@ -1,5 +1,9 @@
 package ru.netology.graphics.image;
 
+import ru.netology.graphics.image.exeptionClass.BadImageSizeException;
+import ru.netology.graphics.image.interfaces.TextColorSchema;
+import ru.netology.graphics.image.interfaces.TextGraphicsConverter;
+
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
