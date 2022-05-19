@@ -1,6 +1,6 @@
-package ru.netology.graphics.image.interfaces;
+package ru.zvezdilin.converter.graphics.classes.image.interfaces;
 
-import ru.netology.graphics.image.exeptionClass.BadImageSizeException;
+import ru.zvezdilin.converter.graphics.classes.image.exeptionClass.BadImageSizeException;
 
 import java.io.IOException;
 
@@ -12,7 +12,7 @@ public interface TextGraphicsConverter {
      * @throws IOException
      * @throws BadImageSizeException Если соотношение сторон изображения слишком большое
      */
-    String convert(String url) throws IOException, BadImageSizeException;
+    String convert(String url) throws IOException, BadImageSizeException, BadImageSizeException;
 
     /**
      * Устанавливает максимальную ширину результирующего изображения в "текстовых пикселях".

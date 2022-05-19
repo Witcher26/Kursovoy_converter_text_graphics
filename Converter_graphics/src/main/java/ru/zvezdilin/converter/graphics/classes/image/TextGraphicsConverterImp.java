@@ -1,8 +1,8 @@
-package ru.netology.graphics.image;
+package ru.zvezdilin.converter.graphics.classes.image;
 
-import ru.netology.graphics.image.exeptionClass.BadImageSizeException;
-import ru.netology.graphics.image.interfaces.TextColorSchema;
-import ru.netology.graphics.image.interfaces.TextGraphicsConverter;
+import ru.zvezdilin.converter.graphics.classes.image.exeptionClass.BadImageSizeException;
+import ru.zvezdilin.converter.graphics.classes.image.interfaces.TextColorSchema;
+import ru.zvezdilin.converter.graphics.classes.image.interfaces.TextGraphicsConverter;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
@@ -16,7 +16,7 @@ public class TextGraphicsConverterImp implements TextGraphicsConverter {
     private int width = 20;
     private int height = 20;
     private TextColorSchema schema;
-    private double maxRatio = 0;
+    private double maxRatio = 0.0;
 
     @Override
     public void setMaxHeight(int height) {

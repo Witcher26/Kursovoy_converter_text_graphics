@@ -1,6 +1,6 @@
-package ru.netology.graphics.image;
+package ru.zvezdilin.converter.graphics.classes.image;
 
-import ru.netology.graphics.image.interfaces.TextColorSchema;
+import ru.zvezdilin.converter.graphics.classes.image.interfaces.TextColorSchema;
 
 public class TextColorSchemaImp implements TextColorSchema {
     char[] symbols = {'#', '$', '@', '%', '*', '+', '-'};

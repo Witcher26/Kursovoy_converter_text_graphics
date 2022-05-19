@@ -1,8 +1,9 @@
-package ru.netology.graphics;
+package ru.zvezdilin.converter.graphics.classes;
 
-import ru.netology.graphics.image.*;
-import ru.netology.graphics.image.interfaces.TextGraphicsConverter;
-import ru.netology.graphics.server.*;
+import ru.zvezdilin.converter.graphics.classes.image.TextColorSchemaImp;
+import ru.zvezdilin.converter.graphics.classes.image.TextGraphicsConverterImp;
+import ru.zvezdilin.converter.graphics.classes.image.interfaces.TextGraphicsConverter;
+import ru.zvezdilin.converter.graphics.classes.server.GServer;
 
 public class Main {
     public static void main(String[] args) throws Exception {
@@ -10,6 +11,7 @@ public class Main {
         char[] symbols = {'#', '$', '@', '%', '*', '+', '-'};
         TextColorSchemaImp schema = new TextColorSchemaImp(symbols);
         converter.setTextColorSchema(schema);
+
 
         GServer server = new GServer(converter); // Создаём объект сервера
         server.start(); // Запускаем
@@ -23,3 +25,5 @@ public class Main {
 //        System.out.println(imgTxt);
     }
 }
+
+//new ru.netology.graphics.image.TextGraphicsConverterImp();
